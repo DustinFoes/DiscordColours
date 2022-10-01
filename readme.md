@@ -9,11 +9,11 @@ TO GET COLOR, USE:
 
 EXAMPLE:
 
-import discord
-from discordcolors.py import colourcoder
+        import discord
+        from discordcolors.py import colourcoder
 
-BOT SET HERE
-@client.command(description="Sends a colorful embed!")
-async def color(ctx, color)
-em = discord.Embed(description="This is Your Embed!", color=colourcoder(color)) # COLOR TAKES IN A STRING LIKE BLUE, GREEN, RED, ETC...
-await ctx.respond(embed=em)
+        BOT SET HERE
+        @client.command(description="Sends a colorful embed!")
+        async def color(ctx, color)
+        em = discord.Embed(description="This is Your Embed!", color=colourcoder(color)) # COLOR TAKES IN A STRING LIKE BLUE, GREEN, RED, ETC...
+        await ctx.respond(embed=em)
